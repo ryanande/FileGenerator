@@ -1,2 +1,2 @@
-# NugetCompare
-Nuget package compare tool.
+# Inglorious File Generator
+A simple random file generator.
