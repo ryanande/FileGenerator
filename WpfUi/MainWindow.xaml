@@ -1,0 +1,11 @@
+﻿<Controls:MetroWindow x:Class="FileGenerator.WpfUi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        DataContext="{Binding Source={StaticResource Locator}, Path=[MainPageViewModel]}"
+        Title="Inglorious File Generator" Height="450" Width="525" Icon="/FileGenerator.WpfUi;component/app.ico">
+    <Grid>
+        <ContentControl Content="{Binding CurrentView}" Margin="15">
+        </ContentControl>
+    </Grid>
+</Controls:MetroWindow>
